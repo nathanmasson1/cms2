@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://nathanmasson1.github.io/cms2/</loc>
+        <loc>https://cms2.visaoverdeai.com.br/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     
     <url>
-        <loc>https://nathanmasson1.github.io/cms2/contato/</loc>
+        <loc>https://cms2.visaoverdeai.com.br/contato/</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
     
     <url>
-        <loc>https://nathanmasson1.github.io/cms2/dfdffdd/</loc>
+        <loc>https://cms2.visaoverdeai.com.br/dfdffdd/</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
@@ -27,7 +27,7 @@
 
     
     <url>
-        <loc>https://nathanmasson1.github.io/cms2/categoria/blog/</loc>
+        <loc>https://cms2.visaoverdeai.com.br/categoria/blog/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
