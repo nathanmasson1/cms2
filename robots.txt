@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nathanmasson1.github.io/cms2/sitemap.xml
+Sitemap: https://cms2.visaoverdeai.com.br/sitemap.xml
