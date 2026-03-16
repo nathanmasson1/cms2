@@ -11,7 +11,7 @@
     <meta property="og:title" content="blog xpto2">
     <meta property="og:description" content="">
     <meta property="og:site_name" content="blog xpto2">
-    <link rel="canonical" href="https://cms2.visaoverdeai.com.br/" />
+    <link rel="canonical" href="/" />
 
     
     <meta name="twitter:card" content="summary">
@@ -34,11 +34,11 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "blog xpto2",
-      "url": "https://cms2.visaoverdeai.com.br/",
+      "url": "/",
       "description": "",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://cms2.visaoverdeai.com.br/?q={search_term_string}",
+        "target": "/?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -110,6 +110,22 @@
         
             <h2 class="fw-bold mb-4 border-bottom pb-2 text-dark mt-5 pt-4">Novos Artigos</h2>
             <div class="row g-4 mb-4">
+                
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-3 h-100">
+                        
+                        <div class="d-flex flex-column justify-content-center">
+                            <h5 class="fw-bold mb-1 lh-sm line-clamp-2" style="font-size: 0.95rem;">
+                                <a href="/fgfg/" class="text-decoration-none text-dark custom-hover">fgfg</a>
+                            </h5>
+                            <div class="text-muted fw-semibold d-flex align-items-center gap-2 mt-1" style="font-size: 0.75rem;">
+                                
+                                <span class="text-dark"><i class="bi bi-person-fill text-muted"></i> blog xpto2</span>
+                                <span><i class="bi bi-calendar3"></i> 16/03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <div class="col-md-4">
                     <div class="d-flex align-items-center gap-3 h-100">
@@ -216,8 +232,9 @@
                 if (filteredPosts.length > 0) {
                     filteredPosts.forEach(post => {
                         const link = document.createElement('a');
-                        link.href = `/${post.slug}/`;
-                        link.className = 'list-group-item list-group-item-action d-flex align-items-center border-0 border-bottom';
+                            const url = `/${post.slug}/`;
+                            link.href = url;
+                            link.className = 'list-group-item list-group-item-action d-flex align-items-center py-3 border-start-0 border-end-0 border-top-0';
 
                         const imgHtml = post.image
                             ? `<img src="${post.image}" class="rounded me-3 object-fit-cover" style="width: 45px; height: 45px;">`
