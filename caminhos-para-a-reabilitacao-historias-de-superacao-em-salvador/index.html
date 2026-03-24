@@ -153,7 +153,7 @@
 
                     
 
-                    <div class="content lh-lg mt-2" style="font-size: 1.15rem;">
+                    <div class="content lh-lg mt-2" style="font-size: 1.0rem;">
                         <p>Se voc&ecirc; j&aacute; parou para observar a vida nas ruas de Salvador, certamente notou a diversidade de hist&oacute;rias que ali se desenrolam. A cidade, com suas cores vibrantes e ritmos contagiantes, tamb&eacute;m abriga narrativas de luta e supera&ccedil;&atilde;o. Entre os desafios enfrentados por muitos, a recupera&ccedil;&atilde;o de dependentes qu&iacute;micos &eacute; uma das mais emocionantes. Aqui, vamos explorar essas hist&oacute;rias inspiradoras e os caminhos percorridos por aqueles que, apesar das dificuldades, encontraram a luz no fim do t&uacute;nel.</p>
 <h2>Os desafios da depend&ecirc;ncia qu&iacute;mica</h2>
 <p>Quando falamos sobre depend&ecirc;ncia qu&iacute;mica, &eacute; f&aacute;cil cair na armadilha dos estigmas e preconceitos. O que muitos n&atilde;o percebem &eacute; que, por tr&aacute;s de cada pessoa, existe uma hist&oacute;ria &uacute;nica, cheia de nuances. Voc&ecirc; j&aacute; se perguntou como &eacute; a vida de algu&eacute;m que luta contra essa depend&ecirc;ncia? &Eacute; um caminho tortuoso, repleto de altos e baixos. Para muitos, a jornada come&ccedil;a com a busca de al&iacute;vio para dores emocionais e, rapidamente, se transforma em uma batalha incessante.</p>
@@ -493,6 +493,25 @@
                     }
                 });
             }
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Procura todos os botões que tenham a classe btn-feedback
+            const botoesFeedback = document.querySelectorAll('.btn-feedback');
+
+            botoesFeedback.forEach(botao => {
+                botao.addEventListener('click', function() {
+                    // Encontra a caixa principal e substitui o conteúdo
+                    const container = this.closest('.feedback-container');
+                    if (container) {
+                        container.innerHTML = `
+                            <h4 style="color: #198754; font-weight: bold; margin-bottom: 8px;">Obrigada pela resposta!</h4>
+                            <p style="color: #6c757d; margin-bottom: 0;">Usaremos as informações enviadas para melhorias em nosso conteúdo.</p>
+                        `;
+                    }
+                });
+            });
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
