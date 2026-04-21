@@ -1,57 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <url>
-        <loc>https://cms2.visaoverdeai.com.br/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
-    <url>
-        <loc>https://cms2.visaoverdeai.com.br/contato/</loc>
-        <lastmod>2026-03-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+    <sitemap>
+        <loc>https://cms2.visaoverdeai.com.br/sitemap-base.xml</loc>
+    </sitemap>
     
-
+    <sitemap>
+        <loc>https://cms2.visaoverdeai.com.br/sitemap-posts-1.xml</loc>
+    </sitemap>
     
-    <url>
-        <loc>https://cms2.visaoverdeai.com.br/caminhos-para-a-reabilitacao-historias-de-superacao-em-salvador/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://cms2.visaoverdeai.com.br/samsung-vs-xiaomi-uma-comparacao-completa/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://cms2.visaoverdeai.com.br/samsung-vs-lg-qual-e-a-melhor-escolha-para-voce/</loc>
-        <lastmod>2026-03-28</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://cms2.visaoverdeai.com.br/melhores-televisoes-em-2026/</loc>
-        <lastmod>2026-03-21</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-
-    
-    <url>
-        <loc>https://cms2.visaoverdeai.com.br/categoria/blog/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    
-
-</urlset>
+</sitemapindex>
